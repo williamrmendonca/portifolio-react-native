@@ -1,5 +1,6 @@
 // Navigation
 
+import WaveStatus from '../Screens/WaveStatus'
 import MenuAnimation from '../Screens/MenuAnimation'
 import Carousel180 from '../Screens/Carousel180'
 import ElementTransitions from '../Screens/ElementTransitions'
@@ -15,6 +16,7 @@ import CustomTimePicker from '../Screens/CustomTimePicker'
 import ChecklistAnimation from '../Screens/ChecklistAnimation'
 
 export default [
+  { name: 'WaveStatus', label: 'WaveStatus', component: WaveStatus },
   { name: 'MotiCars', label: 'MotiCars', component: MotiCars },
   { name: 'ProfilesAnimate', label: 'ProfilesAnimate', component: ProfilesAnimate },
   { name: 'BehanceLogin', label: 'BehanceLogin', component: BehanceLogin },

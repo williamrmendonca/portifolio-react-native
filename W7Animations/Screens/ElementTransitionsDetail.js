@@ -39,16 +39,16 @@ const ElementTransitionsDetail = ({ navigation, route }) => {
         animation='fadeIn'
         duration={600}
         delay={300}
-        style={[StyleSheet.absoluteFillObject]}
+        style={[StyleSheet.absoluteFillObject, {backgroundColor: 'rgba(0,0,0,0.5)', top: 20, left: 20, width: 40, height: 40, borderRadius: 20, justifyContent: 'center', alignItems: 'center'}]}
       >
         <MaterialCommunityIcons
           name='close'
           size={28}
           color='#fff'
           style={{
-            position: 'absolute',
-            top: 20,
-            right: 20,
+            // position: 'absolute',
+            // top: 20,
+            // right: 20,
             zIndex: 2
           }}
           onPress={() => {
