@@ -126,7 +126,8 @@ const CourseListing = ({ navigation, route, appTheme }) => {
                         style={{
                             height: "100%",
                             width: "100%",
-                            borderBottomLeftRadius: 60,
+                            borderBottomLeftRadius: 40,
+                            // borderBottomRightRadius: 40,
                         }}
                     />
                 </SharedElement>
