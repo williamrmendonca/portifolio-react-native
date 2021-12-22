@@ -6,6 +6,7 @@ import {
     TouchableOpacity,
     Animated
 } from 'react-native';
+
 import { connect } from "react-redux";
 
 import { COLORS, FONTS, SIZES } from "../constants";
