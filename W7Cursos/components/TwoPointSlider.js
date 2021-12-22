@@ -1,8 +1,7 @@
 import React from 'react';
 import {
     View,
-    Text,
-    StyleSheet
+    Text
 } from 'react-native';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import { connect } from "react-redux";
