@@ -10,9 +10,9 @@ import thunk from "redux-thunk";
 
 import themeReducer from "./stores/themeReducer";
 import {
+    Walkthrough,
     Login,
     Register,
-    Walkthrough,
     ChooseCategory,
 
     MainLayout,
@@ -68,7 +68,7 @@ const App = () => {
                         useNativeDriver: true,
                         headerShown: false
                     }}
-                    initialRouteName={'Login'}
+                    initialRouteName={'Walkthrough'}
                     detachInactiveScreens={false}
                 >
                     <Stack.Screen

@@ -94,7 +94,8 @@ const Walkthrough = ({ navigation, appTheme }) => {
                     }}
                     onPress={() => {
                         if (currentIndex == constants.walkthrough.length - 1) {
-                            navigation.navigate("ChooseCategory")
+                            // navigation.navigate("ChooseCategory")
+                            navigation.navigate("Login")
                         } else {
                             flatListRef?.current?.scrollToIndex({
                                 index: currentIndex + 1,

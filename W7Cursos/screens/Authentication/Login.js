@@ -79,7 +79,7 @@ const Login = ({ navigation, appTheme }) => {
                         backgroundColor: COLORS.primary
                     }}
                     label="ENTRAR"
-                    onPress={() => navigation.navigate("Walkthrough")}
+                    onPress={() => navigation.navigate("ChooseCategory")}
                 />
 
                 {/* Divider */}
